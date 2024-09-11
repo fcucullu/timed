@@ -1,0 +1,16 @@
+{
+    "Ferie": "FE",
+    "Malattia": "ML",
+    "Straordinario": "SD",
+    "Lavoro notturno": "MGN",
+    "Lavoro supplementare": "LS",
+    "Smartworking": "False",
+    "Permessi ex-festività": "PE",
+    "Trasferta": "TRAS",
+    "Accumulo banca ore": "FBO",
+    "Festività goduta": "FG",
+    "Utilizzo banca ore": "BO",
+    "ROL": "ROL",
+    "Straordinario notturno": "SN",
+    "Distacco": "TRAS"
+}

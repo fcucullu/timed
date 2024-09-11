@@ -1,0 +1,372 @@
+Nome completo,Identificatore aziendale (paghe),Identificatore dipendente (paghe),Data di inizio dell'assenza,Data di fine dell'assenza,Tipologia di assenza,Durata dell'assenza,Tipologia di durata
+Giuliana Fasolo,W028,56,2024-07-22,2024-08-04,Ferie,80.0,Ore
+Giuliana Fasolo,W028,56,2024-07-05,2024-07-21,Malattia,136.0,Ore
+Natalia Saprykina,W028,49,2024-07-01,2024-07-07,Ferie,40.0,Ore
+Lubiana Del Carmen Camargo Almanza,W028,65,2024-07-30,2024-07-30,Straordinario,1.0,Ore
+Lubiana Del Carmen Camargo Almanza,W028,65,2024-07-15,2024-07-15,Straordinario,1.5,Ore
+Lubiana Del Carmen Camargo Almanza,W028,65,2024-07-12,2024-07-12,Lavoro notturno,1.5,Ore
+Lubiana Del Carmen Camargo Almanza,W028,65,2024-07-08,2024-07-08,Straordinario,1.0,Ore
+Lubiana Del Carmen Camargo Almanza,W028,65,2024-07-13,2024-07-13,Lavoro notturno,1.5,Ore
+Erica Del Carpio,W028,80,2024-07-08,2024-07-08,Lavoro supplementare,2.0,Ore
+Erica Del Carpio,W028,80,2024-07-02,2024-07-02,Lavoro supplementare,2.0,Ore
+Erica Del Carpio,W028,80,2024-07-14,2024-07-14,Lavoro supplementare,1.0,Ore
+Erica Del Carpio,W028,80,2024-07-12,2024-07-12,Lavoro supplementare,1.0,Ore
+Erica Del Carpio,W028,80,2024-07-06,2024-07-06,Lavoro supplementare,1.0,Ore
+Erica Del Carpio,W028,80,2024-07-05,2024-07-05,Lavoro supplementare,2.0,Ore
+Erica Del Carpio,W028,80,2024-07-04,2024-07-04,Lavoro supplementare,2.0,Ore
+Erica Del Carpio,W028,80,2024-07-10,2024-07-10,Lavoro supplementare,2.0,Ore
+Erica Del Carpio,W028,80,2024-07-07,2024-07-07,Lavoro supplementare,1.0,Ore
+Ileana Antonella Ierardi,W028,93,2024-07-15,2024-07-19,Ferie,40.0,Ore
+Ileana Antonella Ierardi,W028,93,2024-07-29,2024-07-29,Smartworking,5.7143,Ore
+Ileana Antonella Ierardi,W028,93,2024-07-22,2024-07-22,Smartworking,5.7143,Ore
+Ileana Antonella Ierardi,W028,93,2024-07-12,2024-07-12,Smartworking,5.7143,Ore
+Ileana Antonella Ierardi,W028,93,2024-07-05,2024-07-05,Permessi ex-festività,5.0,Ore
+Ileana Antonella Ierardi,W028,93,2024-07-09,2024-07-11,Trasferta,17.1429,Ore
+Ileana Antonella Ierardi,W028,93,2024-07-01,2024-07-03,Trasferta,17.1429,Ore
+Ileana Antonella Ierardi,W028,93,2024-07-23,2024-07-23,Smartworking,5.7143,Ore
+Ileana Antonella Ierardi,W028,93,2024-07-05,2024-07-05,Smartworking,5.7143,Ore
+Tecla Campoli,W028,103,2024-07-29,2024-07-29,Lavoro notturno,0.5,Ore
+Tecla Campoli,W028,103,2024-07-27,2024-07-27,Lavoro notturno,1.0,Ore
+Tecla Campoli,W028,103,2024-07-19,2024-07-19,Lavoro notturno,0.5,Ore
+Tecla Campoli,W028,103,2024-07-07,2024-07-07,Lavoro supplementare,0.5,Ore
+Tecla Campoli,W028,103,2024-07-23,2024-07-23,Lavoro supplementare,1.0,Ore
+Tecla Campoli,W028,103,2024-07-12,2024-07-12,Lavoro notturno,0.5,Ore
+Tecla Campoli,W028,103,2024-07-07,2024-07-07,Lavoro notturno,1.0,Ore
+Tecla Campoli,W028,103,2024-07-05,2024-07-05,Lavoro supplementare,2.5,Ore
+Tecla Campoli,W028,103,2024-07-25,2024-07-25,Lavoro notturno,1.0,Ore
+Tecla Campoli,W028,103,2024-07-21,2024-07-21,Lavoro notturno,1.0,Ore
+Tecla Campoli,W028,103,2024-07-16,2024-07-16,Lavoro notturno,0.5,Ore
+Tecla Campoli,W028,103,2024-07-26,2024-07-26,Lavoro supplementare,1.0,Ore
+Tecla Campoli,W028,103,2024-07-26,2024-07-26,Lavoro notturno,1.0,Ore
+Tecla Campoli,W028,103,2024-07-23,2024-07-23,Lavoro notturno,0.5,Ore
+Tecla Campoli,W028,103,2024-07-22,2024-07-22,Lavoro notturno,0.5,Ore
+Lorenzo Prucher,W028,102,2024-07-28,2024-07-28,Lavoro notturno,2.5,Ore
+Lorenzo Prucher,W028,102,2024-07-03,2024-07-03,Lavoro supplementare,2.0,Ore
+Lorenzo Prucher,W028,102,2024-07-20,2024-07-20,Lavoro supplementare,2.0,Ore
+Lorenzo Prucher,W028,102,2024-07-09,2024-07-09,Lavoro notturno,2.5,Ore
+Lorenzo Prucher,W028,102,2024-07-06,2024-07-06,Lavoro notturno,2.5,Ore
+Lorenzo Prucher,W028,102,2024-07-04,2024-07-04,Lavoro notturno,2.5,Ore
+Lorenzo Prucher,W028,102,2024-07-31,2024-07-31,Lavoro supplementare,2.0,Ore
+Lorenzo Prucher,W028,102,2024-07-08,2024-07-08,Lavoro supplementare,2.0,Ore
+Lorenzo Prucher,W028,102,2024-07-23,2024-07-23,Lavoro supplementare,2.0,Ore
+Lorenzo Prucher,W028,102,2024-07-21,2024-07-21,Lavoro notturno,2.5,Ore
+Lorenzo Prucher,W028,102,2024-07-24,2024-07-24,Lavoro supplementare,2.0,Ore
+Lorenzo Prucher,W028,102,2024-07-23,2024-07-23,Lavoro notturno,2.5,Ore
+Lorenzo Prucher,W028,102,2024-07-15,2024-07-15,Lavoro notturno,2.5,Ore
+Lorenzo Prucher,W028,102,2024-07-08,2024-07-08,Lavoro notturno,2.5,Ore
+Lorenzo Prucher,W028,102,2024-07-01,2024-07-01,Lavoro notturno,2.5,Ore
+Valeria Banzato,W028,120,2024-07-09,2024-07-09,Malattia,6.0,Ore
+Valeria Banzato,W028,120,2024-07-08,2024-07-08,Malattia,6.0,Ore
+Noemi Cattarinussi,W028,121,2024-07-26,2024-07-26,Lavoro supplementare,1.0,Ore
+Noemi Cattarinussi,W028,121,2024-07-27,2024-07-27,Lavoro supplementare,1.0,Ore
+Francesca Cipolletta,W028,10,2024-07-15,2024-07-19,Ferie,30.0,Ore
+Francesca Cipolletta,W028,10,2024-07-14,2024-07-14,Lavoro notturno,0.5,Ore
+Francesca Cipolletta,W028,10,2024-07-04,2024-07-04,Lavoro notturno,0.5,Ore
+Francesca Cipolletta,W028,10,2024-07-22,2024-07-26,Ferie,30.0,Ore
+Francesca Cipolletta,W028,10,2024-07-30,2024-07-30,Lavoro notturno,0.5,Ore
+Francesca Cipolletta,W028,10,2024-07-12,2024-07-12,Lavoro notturno,0.5,Ore
+Francesca Cipolletta,W028,10,2024-07-07,2024-07-07,Lavoro notturno,0.5,Ore
+Sara Pioli,W028,21,2024-07-01,2024-07-01,Lavoro notturno,0.5,Ore
+Sara Pioli,W028,21,2024-07-24,2024-07-24,Accumulo banca ore,4.0,Ore
+Sara Pioli,W028,21,2024-07-22,2024-07-22,Malattia,8.0,Ore
+Sara Pioli,W028,21,2024-07-18,2024-07-18,Lavoro notturno,0.5,Ore
+Sara Pioli,W028,21,2024-07-15,2024-07-15,Smartworking,8.0,Ore
+Sara Pioli,W028,21,2024-07-04,2024-07-04,Lavoro notturno,1.0,Ore
+Sara Pioli,W028,21,2024-07-30,2024-07-30,Lavoro notturno,0.5,Ore
+Sara Pioli,W028,21,2024-07-24,2024-07-24,Straordinario,1.0,Ore
+Sara Pioli,W028,21,2024-07-23,2024-07-23,Malattia,8.0,Ore
+Sara Pioli,W028,21,2024-07-25,2024-07-25,Lavoro notturno,0.5,Ore
+Sara Pioli,W028,21,2024-07-20,2024-07-20,Lavoro notturno,1.0,Ore
+Sara Pioli,W028,21,2024-07-12,2024-07-12,Lavoro notturno,1.0,Ore
+Sara Pioli,W028,21,2024-07-08,2024-07-08,Lavoro notturno,0.5,Ore
+Sara Pioli,W028,21,2024-07-24,2024-07-24,Lavoro notturno,1.0,Ore
+Sara Pioli,W028,21,2024-07-13,2024-07-13,Lavoro notturno,1.0,Ore
+Sara Pioli,W028,21,2024-07-05,2024-07-05,Lavoro notturno,1.0,Ore
+Filippo Serpetti,W028,45,2024-07-23,2024-07-23,Lavoro supplementare,4.0,Ore
+Alessia Collinet,W028,58,2024-07-29,2024-08-02,Ferie,40.0,Ore
+Alessia Collinet,W028,58,2024-07-05,2024-07-05,Lavoro notturno,2.5,Ore
+Alessia Collinet,W028,58,2024-07-23,2024-07-24,Malattia,16.0,Ore
+Alessia Collinet,W028,58,2024-07-18,2024-07-18,Lavoro notturno,2.5,Ore
+Alessia Collinet,W028,58,2024-07-13,2024-07-13,Lavoro notturno,2.5,Ore
+Alessia Collinet,W028,58,2024-07-06,2024-07-06,Lavoro notturno,2.5,Ore
+Alessia Collinet,W028,58,2024-07-17,2024-07-17,Lavoro notturno,2.5,Ore
+Alessia Collinet,W028,58,2024-07-11,2024-07-11,Lavoro notturno,2.5,Ore
+Alessia Collinet,W028,58,2024-07-07,2024-07-07,Permessi ex-festività,8.0,Ore
+Marta Elisa Morales Arevalo,W028,57,2024-07-02,2024-07-02,Lavoro notturno,0.5,Ore
+Marta Elisa Morales Arevalo,W028,57,2024-07-08,2024-07-12,Ferie,40.0,Ore
+Marta Elisa Morales Arevalo,W028,57,2024-07-27,2024-07-28,Lavoro notturno,1.0,Ore
+Marta Elisa Morales Arevalo,W028,57,2024-07-23,2024-07-23,Accumulo banca ore,4.0,Ore
+Alessandra Lecchi,W028,82,2024-07-06,2024-07-06,Permessi ex-festività,2.0,Ore
+Nicole Bariani,W028,79,2024-07-09,2024-07-15,Malattia,27.4284,Ore
+Nicole Bariani,W028,79,2024-07-22,2024-07-25,Ferie,32.0,Ore
+Agnese Grandi,W028,84,2024-07-25,2024-07-25,Lavoro supplementare,1.0,Ore
+Agnese Grandi,W028,84,2024-07-28,2024-07-28,Lavoro supplementare,5.5,Ore
+Agnese Grandi,W028,84,2024-07-23,2024-07-23,Lavoro supplementare,2.0,Ore
+Ana Luisa Pinto Correia De Oliveira,W028,91,2024-07-18,2024-07-18,Lavoro supplementare,8.0,Ore
+Ana Luisa Pinto Correia De Oliveira,W028,91,2024-07-02,2024-07-02,Lavoro supplementare,8.0,Ore
+Ana Luisa Pinto Correia De Oliveira,W028,91,2024-07-27,2024-07-27,Lavoro notturno,2.5,Ore
+Ana Luisa Pinto Correia De Oliveira,W028,91,2024-07-16,2024-07-16,Lavoro supplementare,8.0,Ore
+Ana Luisa Pinto Correia De Oliveira,W028,91,2024-07-18,2024-07-18,Lavoro notturno,2.5,Ore
+Ana Luisa Pinto Correia De Oliveira,W028,91,2024-07-07,2024-07-07,Lavoro notturno,2.5,Ore
+Ana Luisa Pinto Correia De Oliveira,W028,91,2024-07-26,2024-07-26,Lavoro supplementare,8.0,Ore
+Ana Luisa Pinto Correia De Oliveira,W028,91,2024-07-12,2024-07-12,Lavoro supplementare,8.0,Ore
+Ana Luisa Pinto Correia De Oliveira,W028,91,2024-07-14,2024-07-14,Lavoro notturno,2.5,Ore
+Ana Luisa Pinto Correia De Oliveira,W028,91,2024-07-12,2024-07-12,Lavoro notturno,2.5,Ore
+Ana Luisa Pinto Correia De Oliveira,W028,91,2024-07-23,2024-07-23,Lavoro supplementare,8.0,Ore
+Ana Luisa Pinto Correia De Oliveira,W028,91,2024-07-04,2024-07-04,Lavoro supplementare,8.0,Ore
+Ana Luisa Pinto Correia De Oliveira,W028,91,2024-07-28,2024-07-28,Lavoro notturno,2.5,Ore
+Ana Luisa Pinto Correia De Oliveira,W028,91,2024-07-21,2024-07-21,Lavoro notturno,2.5,Ore
+Ana Luisa Pinto Correia De Oliveira,W028,91,2024-07-02,2024-07-02,Lavoro notturno,2.5,Ore
+Marica Boscaini,W028,95,2024-07-18,2024-07-19,Ferie,8.0,Ore
+Marica Boscaini,W028,95,2024-07-17,2024-07-17,Festività goduta,4.0,Ore
+Marica Boscaini,W028,95,2024-07-15,2024-07-16,Ferie,8.0,Ore
+Marica Boscaini,W028,95,2024-07-22,2024-07-24,Ferie,12.0,Ore
+Valentina Schillaci,W028,97,2024-07-01,2024-07-05,Ferie,20.0,Ore
+Camellini Giulia,W028,125,2024-07-25,2024-07-26,Ferie,16.0,Ore
+Camellini Giulia,W028,125,2024-07-18,2024-07-18,Straordinario,0.5,Ore
+Camellini Giulia,W028,125,2024-07-18,2024-07-18,Straordinario,2.0,Ore
+Cristina Bevilacqua,W028,123,2024-07-19,2024-07-21,Malattia,24.0,Ore
+Elvira Dei Giudici,W028,12,2024-07-05,2024-07-05,Lavoro notturno,0.5,Ore
+Elvira Dei Giudici,W028,12,2024-07-25,2024-07-25,Lavoro notturno,0.5,Ore
+Elvira Dei Giudici,W028,12,2024-07-19,2024-07-19,Lavoro notturno,0.5,Ore
+Elvira Dei Giudici,W028,12,2024-07-17,2024-07-17,Lavoro notturno,0.5,Ore
+Elvira Dei Giudici,W028,12,2024-07-10,2024-07-10,Lavoro notturno,0.5,Ore
+Elvira Dei Giudici,W028,12,2024-07-19,2024-07-19,Permessi ex-festività,2.0,Ore
+Elvira Dei Giudici,W028,12,2024-07-03,2024-07-03,Lavoro notturno,0.5,Ore
+Francesca Flavoni,W028,42,2024-07-27,2024-07-27,Accumulo banca ore,1.0,Ore
+Francesca Flavoni,W028,42,2024-07-23,2024-07-23,Accumulo banca ore,5.0,Ore
+Francesca Flavoni,W028,42,2024-07-26,2024-07-26,Straordinario,2.0,Ore
+Francesca Flavoni,W028,42,2024-07-25,2024-07-25,Accumulo banca ore,2.0,Ore
+Francesca Flavoni,W028,42,2024-07-19,2024-07-19,Ferie,8.0,Ore
+Jessica Franchetti,W028,44,2024-07-15,2024-07-19,Ferie,40.0,Ore
+David Gallo,W028,17,2024-07-23,2024-07-23,Accumulo banca ore,4.0,Ore
+Chiara Mastandrea,W028,39,2024-07-15,2024-07-28,Ferie,59.9998,Ore
+Claudia Montisci,W028,40,2024-07-08,2024-07-14,Ferie,40.0,Ore
+Claudia Montisci,W028,40,2024-07-18,2024-07-18,Smartworking,8.0,Ore
+Claudia Murru,W028,38,2024-07-01,2024-07-07,Ferie,40.0,Ore
+Maria Luisa Sogus,W028,36,2024-07-22,2024-07-28,Ferie,30.0,Ore
+Mariateresa Mangano,W028,46,2024-07-30,2024-07-30,Straordinario,1.5,Ore
+Mariateresa Mangano,W028,46,2024-07-05,2024-07-05,Lavoro notturno,1.5,Ore
+Mariateresa Mangano,W028,46,2024-07-23,2024-07-23,Accumulo banca ore,2.0,Ore
+Giulia Fortunato,W028,72,2024-07-16,2024-07-16,Lavoro notturno,1.0,Ore
+Giulia Fortunato,W028,72,2024-07-11,2024-07-11,Lavoro notturno,0.5,Ore
+Giulia Fortunato,W028,72,2024-07-15,2024-07-15,Lavoro notturno,1.0,Ore
+Giulia Fortunato,W028,72,2024-07-10,2024-07-10,Lavoro notturno,0.5,Ore
+Giulia Fortunato,W028,72,2024-07-08,2024-07-08,Lavoro notturno,1.0,Ore
+Giulia Fortunato,W028,72,2024-07-06,2024-07-06,Lavoro supplementare,1.0,Ore
+Giulia Fortunato,W028,72,2024-07-27,2024-07-27,Malattia,6.0,Ore
+Giulia Fortunato,W028,72,2024-07-26,2024-07-26,Malattia,6.0,Ore
+Giulia Fortunato,W028,72,2024-07-24,2024-07-24,Malattia,6.0,Ore
+Giulia Fortunato,W028,72,2024-07-29,2024-07-31,Ferie,18.0,Ore
+Giulia Fortunato,W028,72,2024-07-06,2024-07-06,Lavoro notturno,0.5,Ore
+Giulia Fortunato,W028,72,2024-07-02,2024-07-02,Lavoro notturno,1.0,Ore
+Jessica Alejandra Lombardi,W028,71,2024-07-21,2024-07-21,Malattia,8.0,Ore
+Jessica Alejandra Lombardi,W028,71,2024-07-26,2024-07-26,Straordinario,2.0,Ore
+Alessia Morani,W028,77,2024-07-30,2024-07-30,Lavoro notturno,1.0,Ore
+Alessia Morani,W028,77,2024-07-15,2024-07-15,Lavoro notturno,0.5,Ore
+Alessia Morani,W028,77,2024-07-09,2024-07-09,Lavoro notturno,0.5,Ore
+Alessia Morani,W028,77,2024-07-31,2024-07-31,Lavoro notturno,0.5,Ore
+Alessia Morani,W028,77,2024-07-23,2024-07-23,Lavoro notturno,1.0,Ore
+Alessia Morani,W028,77,2024-07-21,2024-07-21,Lavoro notturno,0.5,Ore
+Alessia Morani,W028,77,2024-07-18,2024-07-18,Lavoro notturno,1.0,Ore
+Alessia Morani,W028,77,2024-07-14,2024-07-14,Lavoro notturno,1.0,Ore
+Alessia Morani,W028,77,2024-07-29,2024-07-29,Lavoro notturno,1.0,Ore
+Alessia Morani,W028,77,2024-07-01,2024-07-05,Ferie,30.0,Ore
+Alessia Morani,W028,77,2024-07-30,2024-07-30,Lavoro supplementare,1.0,Ore
+Alessia Morani,W028,77,2024-07-29,2024-07-29,Lavoro supplementare,1.0,Ore
+Alessia Morani,W028,77,2024-07-24,2024-07-24,Lavoro supplementare,2.0,Ore
+Alessia Morani,W028,77,2024-07-28,2024-07-28,Lavoro notturno,1.0,Ore
+Alessia Morani,W028,77,2024-07-19,2024-07-19,Lavoro notturno,1.0,Ore
+Giorgia Mangoni,W028,78,2024-07-08,2024-07-12,Ferie,40.0,Ore
+Sheila Guido,W028,81,2024-07-01,2024-07-07,Ferie,29.9999,Ore
+Sheila Guido,W028,81,2024-07-08,2024-07-14,Ferie,29.9999,Ore
+Giorgia Bisulli,W028,86,2024-07-18,2024-07-18,Lavoro supplementare,1.0,Ore
+Giorgia Bisulli,W028,86,2024-07-28,2024-07-28,Lavoro supplementare,2.5,Ore
+Giorgia Bisulli,W028,86,2024-07-25,2024-07-25,Lavoro supplementare,1.0,Ore
+Giorgia Bisulli,W028,86,2024-07-23,2024-07-23,Lavoro supplementare,2.0,Ore
+Luigia Russo,W028,98,2024-07-22,2024-07-26,Ferie,40.0,Ore
+Luigia Russo,W028,98,2024-07-14,2024-07-14,Lavoro supplementare,1.0,Ore
+Ester Lupetto,W028,112,2024-07-07,2024-07-07,Lavoro supplementare,2.0,Ore
+Ester Lupetto,W028,112,2024-07-01,2024-07-01,Lavoro supplementare,2.0,Ore
+Ester Lupetto,W028,112,2024-07-03,2024-07-03,Lavoro supplementare,2.0,Ore
+Ester Lupetto,W028,112,2024-07-20,2024-07-20,Permessi ex-festività,5.5,Ore
+Ester Lupetto,W028,112,2024-07-12,2024-07-12,Lavoro supplementare,2.0,Ore
+Ester Lupetto,W028,112,2024-07-09,2024-07-09,Lavoro supplementare,2.0,Ore
+Ester Lupetto,W028,112,2024-07-05,2024-07-05,Lavoro supplementare,2.0,Ore
+Ester Lupetto,W028,112,2024-07-11,2024-07-11,Lavoro supplementare,2.0,Ore
+Ester Lupetto,W028,112,2024-07-08,2024-07-08,Lavoro supplementare,2.0,Ore
+Cristina Panuta,W028,132,2024-07-30,2024-07-30,Lavoro notturno,0.5,Ore
+Cristina Panuta,W028,132,2024-07-25,2024-07-25,Lavoro notturno,0.5,Ore
+Alessandra Ar,W028,16,2024-07-01,2024-07-14,Ferie,80.0002,Ore
+Maria Lombardi,W028,13,2024-07-08,2024-07-12,Ferie,40.0,Ore
+Maria Lombardi,W028,13,2024-07-19,2024-07-20,Lavoro notturno,3.0,Ore
+Maria Lombardi,W028,13,2024-07-29,2024-08-02,Ferie,40.0,Ore
+Daniela Savoia,W028,35,2024-07-29,2024-08-04,Ferie,40.0,Ore
+Gaia Appeddu,W028,55,2024-07-19,2024-07-19,Lavoro notturno,2.5,Ore
+Gaia Appeddu,W028,55,2024-07-24,2024-07-25,Lavoro notturno,5.0,Ore
+Gaia Appeddu,W028,55,2024-07-23,2024-07-23,Accumulo banca ore,4.0,Ore
+Gaia Appeddu,W028,55,2024-07-08,2024-07-12,Ferie,40.0,Ore
+Gaia Appeddu,W028,55,2024-07-26,2024-07-26,Permessi ex-festività,2.5,Ore
+Gaia Appeddu,W028,55,2024-07-01,2024-07-05,Ferie,40.0,Ore
+Gaia Appeddu,W028,55,2024-07-16,2024-07-16,Lavoro notturno,2.5,Ore
+Desirè Gallo,W028,48,2024-07-10,2024-07-10,Lavoro notturno,2.5,Ore
+Desirè Gallo,W028,48,2024-07-15,2024-07-19,Ferie,40.0,Ore
+Desirè Gallo,W028,48,2024-07-01,2024-07-01,Lavoro notturno,2.5,Ore
+Desirè Gallo,W028,48,2024-07-22,2024-07-26,Ferie,40.0,Ore
+Desirè Gallo,W028,48,2024-07-29,2024-07-29,Lavoro notturno,2.5,Ore
+Desirè Gallo,W028,48,2024-07-11,2024-07-11,Lavoro notturno,2.5,Ore
+Desirè Gallo,W028,48,2024-07-07,2024-07-07,Lavoro notturno,2.5,Ore
+Aisa Luise,W028,62,2024-07-30,2024-07-30,Lavoro notturno,2.5,Ore
+Aisa Luise,W028,62,2024-07-19,2024-07-22,Malattia,24.0,Ore
+Aisa Luise,W028,62,2024-07-15,2024-07-15,Lavoro notturno,2.5,Ore
+Aisa Luise,W028,62,2024-07-09,2024-07-10,Lavoro notturno,5.0,Ore
+Aisa Luise,W028,62,2024-07-05,2024-07-05,Lavoro notturno,2.5,Ore
+Aisa Luise,W028,62,2024-07-16,2024-07-16,Lavoro notturno,2.5,Ore
+Aisa Luise,W028,62,2024-07-12,2024-07-12,Lavoro notturno,2.5,Ore
+Aisa Luise,W028,62,2024-07-02,2024-07-03,Lavoro notturno,5.0,Ore
+Aisa Luise,W028,62,2024-07-26,2024-07-27,Lavoro notturno,5.0,Ore
+Aisa Luise,W028,62,2024-07-24,2024-07-24,Lavoro supplementare,2.0,Ore
+Jelena Saban,W028,51,2024-07-29,2024-08-02,Ferie,40.0,Ore
+Jelena Saban,W028,51,2024-07-22,2024-07-26,Ferie,40.0,Ore
+Jelena Saban,W028,51,2024-07-15,2024-07-15,Smartworking,8.0,Ore
+Roberta Rossi,W028,73,2024-07-02,2024-07-02,Lavoro notturno,0.5,Ore
+Roberta Rossi,W028,73,2024-07-16,2024-07-16,Lavoro notturno,0.5,Ore
+Roberta Rossi,W028,73,2024-07-26,2024-07-26,Lavoro notturno,0.5,Ore
+Roberta Rossi,W028,73,2024-07-22,2024-07-22,Lavoro notturno,0.5,Ore
+Roberta Rossi,W028,73,2024-07-11,2024-07-11,Lavoro notturno,0.5,Ore
+Roberta Rossi,W028,73,2024-07-08,2024-07-08,Lavoro notturno,0.5,Ore
+Roberta Rossi,W028,73,2024-07-06,2024-07-06,Lavoro notturno,0.5,Ore
+Gloria Cristina Soares De Souza,W028,76,2024-07-03,2024-07-03,Lavoro supplementare,1.0,Ore
+Gloria Cristina Soares De Souza,W028,76,2024-07-03,2024-07-03,Lavoro notturno,0.5,Ore
+Gloria Cristina Soares De Souza,W028,76,2024-07-01,2024-07-01,Lavoro notturno,1.0,Ore
+Gloria Cristina Soares De Souza,W028,76,2024-07-14,2024-07-14,Permessi ex-festività,6.0,Ore
+Gloria Cristina Soares De Souza,W028,76,2024-07-07,2024-07-07,Lavoro notturno,0.5,Ore
+Gloria Cristina Soares De Souza,W028,76,2024-07-10,2024-07-10,Lavoro notturno,1.0,Ore
+Gloria Cristina Soares De Souza,W028,76,2024-07-06,2024-07-06,Lavoro notturno,1.0,Ore
+Gloria Cristina Soares De Souza,W028,76,2024-07-05,2024-07-05,Lavoro supplementare,1.0,Ore
+Gloria Cristina Soares De Souza,W028,76,2024-07-13,2024-07-13,Lavoro notturno,0.5,Ore
+Lara Maria Pia Abd El Shahid,W028,87,2024-07-15,2024-07-18,Ferie,32.0,Ore
+Lara Maria Pia Abd El Shahid,W028,87,2024-07-13,2024-07-13,Lavoro supplementare,4.0,Ore
+Soumia Atif,W028,83,2024-07-25,2024-07-28,Malattia,12.8571,Ore
+Soumia Atif,W028,83,2024-07-22,2024-07-22,Malattia,4.2857,Ore
+Soumia Atif,W028,83,2024-07-20,2024-07-20,Malattia,4.2857,Ore
+Gilda Tosoni,W028,85,2024-07-22,2024-07-22,Lavoro supplementare,2.0,Ore
+Stefania Ranucci,W028,89,2024-07-11,2024-07-11,Lavoro notturno,1.0,Ore
+Stefania Ranucci,W028,89,2024-07-09,2024-07-09,Lavoro notturno,1.0,Ore
+Stefania Ranucci,W028,89,2024-07-22,2024-07-22,Lavoro notturno,1.0,Ore
+Stefania Ranucci,W028,89,2024-07-14,2024-07-14,Lavoro notturno,0.5,Ore
+Stefania Ranucci,W028,89,2024-07-03,2024-07-03,Lavoro notturno,1.0,Ore
+Stefania Ranucci,W028,89,2024-07-17,2024-07-17,Lavoro notturno,1.0,Ore
+Stefania Ranucci,W028,89,2024-07-26,2024-07-26,Lavoro notturno,0.5,Ore
+Stefania Ranucci,W028,89,2024-07-24,2024-07-24,Lavoro notturno,0.5,Ore
+Stefania Ranucci,W028,89,2024-07-05,2024-07-05,Lavoro notturno,0.5,Ore
+Stefania Ranucci,W028,89,2024-07-31,2024-07-31,Lavoro notturno,1.0,Ore
+Stefania Ranucci,W028,89,2024-07-20,2024-07-20,Lavoro notturno,0.5,Ore
+Stefania Ranucci,W028,89,2024-07-24,2024-07-24,Lavoro supplementare,1.0,Ore
+Stefania Ranucci,W028,89,2024-07-23,2024-07-23,Lavoro supplementare,1.0,Ore
+Stefania Ranucci,W028,89,2024-07-04,2024-07-04,Lavoro notturno,0.5,Ore
+Giulia Bonfiglio,W028,88,2024-07-15,2024-07-15,Lavoro supplementare,1.0,Ore
+Giulia Bonfiglio,W028,88,2024-07-29,2024-07-29,Lavoro supplementare,2.0,Ore
+Giulia Bonfiglio,W028,88,2024-07-14,2024-07-14,Lavoro supplementare,5.0,Ore
+Sabine Kerbaj,W028,90,2024-07-31,2024-07-31,Lavoro notturno,2.5,Ore
+Sabine Kerbaj,W028,90,2024-07-29,2024-07-29,Lavoro notturno,2.5,Ore
+Sabine Kerbaj,W028,90,2024-07-20,2024-07-20,Lavoro notturno,2.5,Ore
+Sabine Kerbaj,W028,90,2024-07-19,2024-07-19,Lavoro notturno,2.5,Ore
+Sabine Kerbaj,W028,90,2024-07-08,2024-07-08,Lavoro notturno,2.5,Ore
+Sabine Kerbaj,W028,90,2024-07-04,2024-07-04,Lavoro notturno,2.5,Ore
+Sabine Kerbaj,W028,90,2024-07-22,2024-07-22,Lavoro supplementare,2.0,Ore
+Sabine Kerbaj,W028,90,2024-07-17,2024-07-17,Lavoro notturno,2.5,Ore
+Sabine Kerbaj,W028,90,2024-07-26,2024-07-26,Lavoro notturno,2.5,Ore
+Sabine Kerbaj,W028,90,2024-07-25,2024-07-25,Lavoro notturno,2.5,Ore
+Sabine Kerbaj,W028,90,2024-07-13,2024-07-13,Lavoro notturno,2.5,Ore
+Sabine Kerbaj,W028,90,2024-07-03,2024-07-03,Lavoro notturno,2.5,Ore
+Sabine Kerbaj,W028,90,2024-07-20,2024-07-20,Lavoro supplementare,2.0,Ore
+Sabine Kerbaj,W028,90,2024-07-14,2024-07-14,Lavoro notturno,2.5,Ore
+Eleonora Coticoni,W028,92,2024-07-15,2024-07-15,Lavoro supplementare,1.0,Ore
+Eleonora Coticoni,W028,92,2024-07-13,2024-07-13,Lavoro notturno,0.5,Ore
+Eleonora Coticoni,W028,92,2024-07-23,2024-07-23,Lavoro notturno,0.5,Ore
+Eleonora Coticoni,W028,92,2024-07-30,2024-07-30,Permessi ex-festività,5.0,Ore
+Eleonora Coticoni,W028,92,2024-07-15,2024-07-15,Lavoro notturno,0.5,Ore
+Eleonora Coticoni,W028,92,2024-07-01,2024-07-01,Lavoro notturno,0.5,Ore
+Eleonora Coticoni,W028,92,2024-07-09,2024-07-09,Lavoro notturno,0.5,Ore
+Eleonora Coticoni,W028,92,2024-07-24,2024-07-24,Lavoro notturno,0.5,Ore
+Sara Spadavecchia,W028,100,2024-07-23,2024-07-23,Lavoro supplementare,2.0,Ore
+Sara Spadavecchia,W028,100,2024-07-10,2024-07-10,Lavoro supplementare,1.0,Ore
+Sara Spadavecchia,W028,100,2024-07-09,2024-07-09,Lavoro supplementare,1.0,Ore
+Sara Spadavecchia,W028,100,2024-07-03,2024-07-03,Lavoro supplementare,1.0,Ore
+Sara Spadavecchia,W028,100,2024-07-05,2024-07-05,Lavoro supplementare,1.0,Ore
+Sara Spadavecchia,W028,100,2024-07-02,2024-07-02,Lavoro supplementare,1.0,Ore
+Sara Spadavecchia,W028,100,2024-07-01,2024-07-01,Lavoro supplementare,2.0,Ore
+Sara Spadavecchia,W028,100,2024-07-15,2024-07-19,Ferie,30.0,Ore
+Oriana Amato,W028,107,2024-07-17,2024-07-17,Lavoro supplementare,1.0,Ore
+Oriana Amato,W028,107,2024-07-19,2024-07-19,Lavoro supplementare,1.0,Ore
+Oriana Amato,W028,107,2024-07-20,2024-07-20,Lavoro supplementare,1.0,Ore
+Oriana Amato,W028,107,2024-07-16,2024-07-16,Lavoro supplementare,1.0,Ore
+Oriana Amato,W028,107,2024-07-15,2024-07-15,Lavoro supplementare,1.0,Ore
+Oriana Amato,W028,107,2024-07-29,2024-08-02,Ferie,30.0,Ore
+Carolina Rosalia Lorito,W028,108,2024-07-20,2024-07-20,Lavoro supplementare,1.0,Ore
+Carolina Rosalia Lorito,W028,108,2024-07-17,2024-07-18,Lavoro supplementare,2.0,Ore
+Carolina Rosalia Lorito,W028,108,2024-07-16,2024-07-16,Lavoro supplementare,1.0,Ore
+Carolina Rosalia Lorito,W028,108,2024-07-15,2024-07-15,Lavoro supplementare,1.0,Ore
+Carolina Rosalia Lorito,W028,108,2024-07-03,2024-07-03,Lavoro supplementare,2.0,Ore
+Carolina Rosalia Lorito,W028,108,2024-07-06,2024-07-06,Lavoro supplementare,1.0,Ore
+Carolina Rosalia Lorito,W028,108,2024-07-02,2024-07-02,Lavoro supplementare,2.0,Ore
+Frida Quattrociocchi,W028,110,2024-07-20,2024-07-20,Lavoro supplementare,2.0,Ore
+Frida Quattrociocchi,W028,110,2024-07-16,2024-07-16,Lavoro supplementare,2.0,Ore
+Frida Quattrociocchi,W028,110,2024-07-28,2024-07-28,Lavoro supplementare,1.0,Ore
+Frida Quattrociocchi,W028,110,2024-07-24,2024-07-24,Lavoro supplementare,1.0,Ore
+Frida Quattrociocchi,W028,110,2024-07-09,2024-07-09,Lavoro supplementare,1.0,Ore
+Frida Quattrociocchi,W028,110,2024-07-27,2024-07-27,Lavoro supplementare,1.0,Ore
+Frida Quattrociocchi,W028,110,2024-07-19,2024-07-19,Lavoro supplementare,1.0,Ore
+Frida Quattrociocchi,W028,110,2024-07-14,2024-07-14,Lavoro supplementare,2.0,Ore
+Frida Quattrociocchi,W028,110,2024-07-10,2024-07-10,Lavoro supplementare,1.0,Ore
+Frida Quattrociocchi,W028,110,2024-07-03,2024-07-03,Lavoro supplementare,2.0,Ore
+Frida Quattrociocchi,W028,110,2024-07-04,2024-07-04,Lavoro supplementare,2.0,Ore
+Frida Quattrociocchi,W028,110,2024-07-02,2024-07-02,Lavoro supplementare,2.0,Ore
+Frida Quattrociocchi,W028,110,2024-07-22,2024-07-22,Lavoro supplementare,2.0,Ore
+Frida Quattrociocchi,W028,110,2024-07-18,2024-07-18,Lavoro supplementare,1.0,Ore
+Frida Quattrociocchi,W028,110,2024-07-13,2024-07-13,Lavoro supplementare,1.0,Ore
+Georgiana Savut,W028,114,2024-07-27,2024-07-27,Lavoro supplementare,1.0,Ore
+Georgiana Savut,W028,114,2024-07-19,2024-07-19,Lavoro supplementare,5.0,Ore
+Naomy Maria Campbell,W028,126,2024-07-20,2024-07-20,Ferie,8.0,Ore
+Naomy Maria Campbell,W028,126,2024-07-27,2024-07-27,Lavoro supplementare,1.0,Ore
+Naomy Maria Campbell,W028,126,2024-07-25,2024-07-25,Lavoro supplementare,1.0,Ore
+Naomy Maria Campbell,W028,126,2024-07-08,2024-07-08,Lavoro supplementare,0.5,Ore
+Naomy Maria Campbell,W028,126,2024-07-24,2024-07-24,Lavoro supplementare,1.0,Ore
+Kawtar Lougmihi,W028,124,2024-07-29,2024-08-02,Ferie,25.0,Ore
+Kawtar Lougmihi,W028,124,2024-07-15,2024-07-15,Lavoro supplementare,2.0,Ore
+Marco Barraco,W028,33,2024-07-01,2024-07-05,Ferie,40.0,Ore
+Antonella Cassano,W028,6,2024-07-26,2024-07-27,Lavoro notturno,3.0,Ore
+Antonella Cassano,W028,6,2024-07-30,2024-07-30,Straordinario,2.0,Ore
+Giorgiana Isaila,W028,1,2024-07-27,2024-07-27,Accumulo banca ore,3.0,Ore
+Giorgiana Isaila,W028,1,2024-07-16,2024-07-16,Permessi ex-festività,2.0,Ore
+Giorgiana Isaila,W028,1,2024-07-25,2024-07-25,Accumulo banca ore,3.0,Ore
+Giorgiana Isaila,W028,1,2024-07-08,2024-07-12,Ferie,40.0,Ore
+Giorgiana Isaila,W028,1,2024-07-26,2024-07-26,Accumulo banca ore,5.0,Ore
+Giorgiana Isaila,W028,1,2024-07-29,2024-07-29,Utilizzo banca ore,8.0,Ore
+Viviana Manzini,W028,17,2024-07-18,2024-07-18,Lavoro notturno,0.5,Ore
+Viviana Manzini,W028,17,2024-07-29,2024-08-02,Ferie,40.0,Ore
+Viviana Manzini,W028,17,2024-07-05,2024-07-05,ROL,2.0,Ore
+Viviana Manzini,W028,17,2024-07-27,2024-07-27,Lavoro notturno,0.5,Ore
+Viviana Manzini,W028,17,2024-07-25,2024-07-25,Straordinario,2.0,Ore
+Viviana Manzini,W028,17,2024-07-21,2024-07-21,Lavoro notturno,0.5,Ore
+Dar'ya Nikula,W028,9,2024-07-25,2024-07-28,Ferie,32.0,Ore
+Susanna Sulpizi,W028,5,2024-07-10,2024-07-10,Straordinario notturno,2.0,Ore
+Susanna Sulpizi,W028,5,2024-07-15,2024-07-15,Smartworking,8.0,Ore
+Susanna Sulpizi,W028,5,2024-07-09,2024-07-13,Trasferta,40.0,Ore
+Susanna Sulpizi,W028,5,2024-07-11,2024-07-11,Straordinario notturno,2.0,Ore
+Susanna Sulpizi,W028,5,2024-07-11,2024-07-11,Straordinario,1.0,Ore
+Susanna Sulpizi,W028,5,2024-07-10,2024-07-10,Straordinario,1.0,Ore
+Susanna Sulpizi,W028,5,2024-07-09,2024-07-09,Straordinario,1.0,Ore
+Susanna Sulpizi,W028,5,2024-07-09,2024-07-13,Distacco,40.0,Ore
+Susanna Sulpizi,W028,5,2024-07-09,2024-07-09,Straordinario notturno,2.0,Ore
+Veronica Troia,W028,8,2024-07-28,2024-07-28,Lavoro notturno,0.5,Ore
+Veronica Troia,W028,8,2024-07-20,2024-07-20,Lavoro notturno,0.5,Ore
+Veronica Troia,W028,8,2024-07-01,2024-07-05,Ferie,40.0,Ore
+Veronica Troia,W028,8,2024-07-08,2024-07-12,Ferie,40.0,Ore
+Veronica Troia,W028,8,2024-07-30,2024-07-30,Accumulo banca ore,2.0,Ore
+Eleonora Cappola,W028,50,2024-07-06,2024-07-06,Lavoro notturno,1.5,Ore
+Eleonora Cappola,W028,50,2024-07-08,2024-07-21,Ferie,80.0,Ore
+Eleonora Cappola,W028,50,2024-07-30,2024-07-30,Accumulo banca ore,4.0,Ore
+Stefano Cobre,W028,60,2024-07-29,2024-08-02,Ferie,40.0,Ore
+Stefano Cobre,W028,60,2024-07-19,2024-07-19,Smartworking,8.0,Ore
