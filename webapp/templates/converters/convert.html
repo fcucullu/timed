@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+{% load static %}
+{% block content %}
+{% include 'partials/_messages.html' %}
+
+<div class="container mt-5">
+  <h2 class="mb-4">Upload your file to convert</h2>
+
+  <!-- Form structure for POST and file handling -->
+  <form method="POST" enctype="multipart/form-data">
+    {% csrf_token %}
+    
+    <!-- Dropdown Menu -->
+    <div class="mb-3">
+      <label for="dropdownMenu" class="form-label">Select a converter</label>
+      <select class="form-select" id="dropdownMenu" name="conversion_type">
+        <option value="" {% if not conversion_type %}selected{% endif %}>Select an option</option>
+        <option value="giotto" {% if conversion_type == 'giotto' %}selected{% endif %}>Giotto</option>
+        <option value="team_system" {% if conversion_type == 'team_system' %}selected{% endif %}>Team System</option>
+        <option value="randazzo" {% if conversion_type == 'randazzo' %}selected{% endif %}>Randazzo</option>
+      </select>
+    </div>
+
+    <!-- File Input -->
+    <div class="mb-4">
+      <label for="formFile" class="form-label">Upload File to convert</label>
+      <input class="form-control bg-light rounded-pill" type="file" id="formFile" name="uploaded_file" required>
+    </div>
+
+    <!-- Submit Button -->
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+</div>
+
+{% endblock %}

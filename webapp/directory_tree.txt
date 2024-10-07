@@ -1,0 +1,189 @@
+Listado de rutas de carpetas
+El número de serie del volumen es 5C58-A669
+C:.
+¦   .gitignore
+¦   db.sqlite3
+¦   directory_tree.txt
+¦   manage.py
+¦   Pipfile
+¦   Pipfile.lock
+¦   Procfile
+¦   requirements.txt
+¦   
++---authentication
+¦   ¦   admin.py
+¦   ¦   apps.py
+¦   ¦   models.py
+¦   ¦   tests.py
+¦   ¦   urls.py
+¦   ¦   utils.py
+¦   ¦   views.py
+¦   ¦   __init__.py
+¦   ¦   
+¦   +---migrations
+¦   ¦   ¦   0001_initial.py
+¦   ¦   ¦   __init__.py
+¦   ¦   ¦   
+¦   ¦   +---__pycache__
+¦   ¦           0001_initial.cpython-312.pyc
+¦   ¦           __init__.cpython-312.pyc
+¦   ¦           
+¦   +---__pycache__
+¦           admin.cpython-312.pyc
+¦           apps.cpython-312.pyc
+¦           models.cpython-312.pyc
+¦           urls.cpython-312.pyc
+¦           utils.cpython-312.pyc
+¦           views.cpython-312.pyc
+¦           __init__.cpython-312.pyc
+¦           
++---configuration
+¦   ¦   asgi.py
+¦   ¦   settings.py
+¦   ¦   urls.py
+¦   ¦   views.py
+¦   ¦   wsgi.py
+¦   ¦   __init__.py
+¦   ¦   
+¦   +---static
+¦   ¦   +---css
+¦   ¦   ¦       adminstyle.css
+¦   ¦   ¦       bootstrap.min.css
+¦   ¦   ¦       dashboard.css
+¦   ¦   ¦       main.css
+¦   ¦   ¦       
+¦   ¦   +---img
+¦   ¦   ¦       logo.png
+¦   ¦   ¦       
+¦   ¦   +---js
+¦   ¦           add_expense_or_income.js
+¦   ¦           expenses.js
+¦   ¦           expenses_summary.js
+¦   ¦           general_preferences.js
+¦   ¦           main.js
+¦   ¦           register.js
+¦   ¦           
+¦   +---__pycache__
+¦           settings.cpython-312.pyc
+¦           urls.cpython-312.pyc
+¦           views.cpython-312.pyc
+¦           wsgi.cpython-312.pyc
+¦           __init__.cpython-312.pyc
+¦           
++---converters
+¦   ¦   admin.py
+¦   ¦   apps.py
+¦   ¦   models.py
+¦   ¦   tests.py
+¦   ¦   urls.py
+¦   ¦   views.py
+¦   ¦   __init__.py
+¦   ¦   
+¦   +---migrations
+¦   ¦   ¦   0001_initial.py
+¦   ¦   ¦   0002_converter_delete_account_delete_category_and_more.py
+¦   ¦   ¦   __init__.py
+¦   ¦   ¦   
+¦   ¦   +---__pycache__
+¦   ¦           0001_initial.cpython-312.pyc
+¦   ¦           0002_alter_category_options_alter_expense_amount_and_more.cpython-312.pyc
+¦   ¦           0002_converter_delete_account_delete_category_and_more.cpython-312.pyc
+¦   ¦           0003_alter_expense_options.cpython-312.pyc
+¦   ¦           __init__.cpython-312.pyc
+¦   ¦           
+¦   +---utils
+¦   ¦   +---abstract
+¦   ¦   ¦   ¦   abstract_converter.py
+¦   ¦   ¦   ¦   
+¦   ¦   ¦   +---__pycache__
+¦   ¦   ¦           abstract_converter.cpython-312.pyc
+¦   ¦   ¦           
+¦   ¦   +---giotto
+¦   ¦   ¦   ¦   giotto_converter.py
+¦   ¦   ¦   ¦   shift_type_mapping.json
+¦   ¦   ¦   ¦   
+¦   ¦   ¦   +---destino
+¦   ¦   ¦   ¦       Vestopazzo srl (4)_out.csv
+¦   ¦   ¦   ¦       Vp store srl_out (1).csv
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---origin
+¦   ¦   ¦           Esotica.csv
+¦   ¦   ¦           Vp store srl.csv
+¦   ¦   ¦           
+¦   ¦   +---succhetti
+¦   ¦           converter_succhetti.py
+¦   ¦           
+¦   +---__pycache__
+¦           admin.cpython-312.pyc
+¦           apps.cpython-312.pyc
+¦           models.cpython-312.pyc
+¦           urls.cpython-312.pyc
+¦           views.cpython-312.pyc
+¦           __init__.cpython-312.pyc
+¦           
++---staticfiles
++---templates
+¦   ¦   base.html
+¦   ¦   base_auth.html
+¦   ¦   index.html
+¦   ¦   
+¦   +---admin
+¦   ¦       base_site.html
+¦   ¦       
+¦   +---authentication
+¦   ¦       login.html
+¦   ¦       register.html
+¦   ¦       reset-password.html
+¦   ¦       set-newpassword.html
+¦   ¦       
+¦   +---converters
+¦   ¦       convert.html
+¦   ¦       
+¦   +---partials
+¦   ¦       _messages.html
+¦   ¦       _sidebar.html
+¦   ¦       
+¦   +---preferences
+¦           general-preferences.html
+¦           
++---userpreferences
+    ¦   admin.py
+    ¦   apps.py
+    ¦   models.py
+    ¦   tests.py
+    ¦   urls.py
+    ¦   views.py
+    ¦   __init__.py
+    ¦   
+    +---migrations
+    ¦   ¦   0001_initial.py
+    ¦   ¦   0002_userpreferences_currency_code.py
+    ¦   ¦   0003_userpreferences_rows_per_page.py
+    ¦   ¦   0004_alter_userpreferences_rows_per_page.py
+    ¦   ¦   0005_alter_userpreferences_currency_and_more.py
+    ¦   ¦   0006_userpreferences_accounts_and_more.py
+    ¦   ¦   0007_alter_userpreferences_categories_expenses_and_more.py
+    ¦   ¦   0008_alter_userpreferences_categories_expenses_and_more.py
+    ¦   ¦   0009_alter_userpreferences_accounts.py
+    ¦   ¦   __init__.py
+    ¦   ¦   
+    ¦   +---__pycache__
+    ¦           0001_initial.cpython-312.pyc
+    ¦           0002_userpreferences_currency_code.cpython-312.pyc
+    ¦           0003_userpreferences_rows_per_page.cpython-312.pyc
+    ¦           0004_alter_userpreferences_rows_per_page.cpython-312.pyc
+    ¦           0005_alter_userpreferences_currency_and_more.cpython-312.pyc
+    ¦           0006_userpreferences_accounts_and_more.cpython-312.pyc
+    ¦           0007_alter_userpreferences_categories_expenses_and_more.cpython-312.pyc
+    ¦           0008_alter_userpreferences_categories_expenses_and_more.cpython-312.pyc
+    ¦           0009_alter_userpreferences_accounts.cpython-312.pyc
+    ¦           __init__.cpython-312.pyc
+    ¦           
+    +---__pycache__
+            admin.cpython-312.pyc
+            apps.cpython-312.pyc
+            models.cpython-312.pyc
+            urls.cpython-312.pyc
+            views.cpython-312.pyc
+            __init__.cpython-312.pyc
+            
