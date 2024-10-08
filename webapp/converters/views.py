@@ -6,8 +6,6 @@ from .models import Converter
 from .utils.abstract.abstract_converter import AbstractConverter
 from django.http import HttpResponse
 
-
-
 @login_required(login_url='/authentication/login')
 @cache_control(no_cache=True, must_revalidate=True, no_store=True)
 def convert(request):
