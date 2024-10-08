@@ -2,19 +2,25 @@ import pandas as pd
 import os
 import json
 from datetime import datetime, timedelta
+import io
 
 class Giotto:
-    def __init__(self, mapping_file='shift_type_mapping.json'):
-        self.shift_type_mapping = self.load_shift_type_mapping(mapping_file)
+    def __init__(self):
+        self.shift_type_mapping = self.load_shift_type_mapping()
     
-    def load_shift_type_mapping(self, mapping_file):
+    def load_shift_type_mapping(self):
         try:
-            with open(mapping_file, 'r', encoding='utf-8') as f:
+            file_path = os.path.join(os.path.dirname(__file__), 'shift_type_mapping.json')
+            with open(file_path, 'r', encoding='utf-8') as f:
                 shift_type_mapping = json.load(f)
             return shift_type_mapping
         except Exception as e:
             print(f"Error loading JSON mapping file: {e}")
             return {}
+        
+    def read_file(self, uploaded_file):
+        data = pd.read_csv(uploaded_file).values.tolist()
+        return data
 
     def format_duration_to_hhcc(self, duration, date_range_length):
         duration_per_day = duration / date_range_length
@@ -39,6 +45,7 @@ class Giotto:
         return date_range
 
     def convert_format_to_giotto(self, data):
+        data = self.read_file(data)
         giotto_lines = []
         
         for row in data:
@@ -48,7 +55,6 @@ class Giotto:
             end_date = row[4]  
             shift_type = row[5]  
             duration_type = '2'  
-
             try:
                 shift_type_info = self.shift_type_mapping.get(shift_type)
                 if not shift_type_info:
@@ -57,36 +63,25 @@ class Giotto:
                 shift_type_account_weekend = shift_type_info[1]
             except Exception as e:
                 print(f"Error mapping shift type: {e}")
-                continue  # Skip this row if there's an error
+                return  
             
-            date_range = self.generate_date_range(start_date, end_date, shift_type_account_weekend)
-            duration = self.format_duration_to_hhcc(float(row[6]), len(date_range))
+            if shift_type_code:
+                date_range = self.generate_date_range(start_date, end_date, shift_type_account_weekend)
+                duration = self.format_duration_to_hhcc(float(row[6]), len(date_range))
 
-            for date in date_range:
-                giotto_line = f"{company_id};;01;{worker_id};{date};{shift_type_code};{duration};{duration_type}"
-                giotto_lines.append(giotto_line)
+                for date in date_range:
+                    giotto_line = f"{company_id};;01;{worker_id};{date};{shift_type_code};{duration};{duration_type}"
+                    giotto_lines.append(giotto_line)
 
-        with open("giotto_output.csv", "w") as f:
-            f.write("\n".join(giotto_lines))
+        # Not to save the file in the server, just at CLient's downloads folder
+        output = io.StringIO()  # Create an in-memory file
+        output.write("\n".join(giotto_lines))  
+        csv_content = output.getvalue()
+        output.close()
 
-        print("Giotto output generated successfully.")
-        return
+        return csv_content  # Return the CSV data as a string
 
     def convert_data(self, data):        
-        # Convert format using the loaded mapping
-        giotto_output_path = "giotto_output.csv"
-        self.convert_format_to_giotto(data)
-        
-        # Return the path of the generated file
-        return giotto_output_path
+        csv_content = self.convert_format_to_giotto(data)
+        return csv_content
 
-
-# Example usage
-# Assuming you've already read your data from a CSV file or another source
-
-# current_dir = os.getcwd()
-# file_path = os.path.join(current_dir, 'Vp_store_srl.csv')
-# data = pd.read_csv(file_path).values.tolist()
-
-# giotto_converter = Giotto(mapping_file='shift_type_mapping.json')
-# giotto_converter.convert_data(data)

@@ -4,6 +4,8 @@ from django.views.decorators.cache import cache_control
 from django.contrib import messages
 from .models import Converter
 from .utils.abstract.abstract_converter import AbstractConverter
+from django.http import HttpResponse
+
 
 
 @login_required(login_url='/authentication/login')
@@ -30,9 +32,13 @@ def convert(request):
 
         try:
             # Call the abstract converter to handle the file conversion
-            converter = AbstractConverter(uploaded_file, conversion_type, mapping_file)
+            converter = AbstractConverter(uploaded_file, conversion_type)
             response = converter.convert()
-
+            if not isinstance(response, HttpResponse):
+                raise ValueError("Conversion failed: the response is empty. Check your file and try again.")
+            
+            messages.success(request, 'Conversion successful! Your file should be automatically downloaded.')
+            
             # Save conversion details to the database
             Converter.objects.create(
                 user=request.user,
@@ -41,11 +47,9 @@ def convert(request):
             )
 
             return response  
-        except ValueError as e:
-            messages.error(request, str(e))
-            return render(request, 'converters/convert.html', context)
+        
         except Exception as e:
-            messages.error(request, 'An error occurred during conversion.')
+            messages.error(request, 'An error occurred during conversion. Please check the file and try again.')
             
             # Save conversion details with failure status
             Converter.objects.create(
