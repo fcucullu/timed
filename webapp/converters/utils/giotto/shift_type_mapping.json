@@ -1,5 +1,5 @@
 {
-  "_note": ["shiftType_name_on_payroll_side", "should_account_weekends"],
+  "_note": ["shiftType_name_on_payroll_side", "should_count_weekends"],
   "Ferie": ["FE", true],
   "Malattia": ["ML", true],
   "Straordinario": ["SD", true],
