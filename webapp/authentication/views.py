@@ -1,13 +1,13 @@
 from django.shortcuts import render, redirect
 from django.views import View
 from django.http import JsonResponse
-from django.contrib.auth.models import User
+from .models import CustomUser
 import json
 from validate_email import validate_email
 from django.contrib import messages, auth
 from django.core.mail import EmailMessage
 from django.urls import reverse
-from django.utils.encoding import force_bytes, force_str, DjangoUnicodeDecodeError
+from django.utils.encoding import force_bytes, force_str
 from django.utils.http import urlsafe_base64_encode, urlsafe_base64_decode
 from django.contrib.sites.shortcuts import get_current_site
 from .utils import token_generator
@@ -32,7 +32,7 @@ class EmailValidationView(View):
         if not validate_email(email):
             return JsonResponse({'email_error':'Email is invalid'}, status=400)
     
-        if User.objects.filter(email=email).exists():
+        if CustomUser.objects.filter(email=email).exists():
             return JsonResponse({'email_error':'Email is used, please choose another one'}, status=409)
 
         return JsonResponse({'email_valid': True})
@@ -46,7 +46,7 @@ class UsernameValidationView(View):
         if not str(username).isalnum():
             return JsonResponse({'username_error':'Username should only contain alphanumeric characters'}, status=400)
     
-        if User.objects.filter(username=username).exists():
+        if CustomUser.objects.filter(username=username).exists():
             return JsonResponse({'username_error':'Username is used, please choose another one'}, status=409)
 
         return JsonResponse({'username_valid': True})
@@ -64,13 +64,13 @@ class RegistrationView(View):
             'fieldValues': request.POST
         }
 
-        if not User.objects.filter(username=username).exists():
-            if not User.objects.filter(email=email).exists():
+        if not CustomUser.objects.filter(username=username).exists():
+            if not CustomUser.objects.filter(email=email).exists():
                 if len(password)<6:
                     messages.error(request, "The password is too short!")
                     return render(request, 'authentication/register.html', context)
                 
-                user = User.objects.create_user(username=username, email=email)
+                user = CustomUser.objects.create_user(username=username, email=email)
                 user.set_password(password)
                 user.is_active = False
                 user.save()
@@ -102,7 +102,7 @@ class VerificationView(View):
         
         try:
             id = force_str(urlsafe_base64_decode(uidb64))
-            user = User.objects.get(pk=id)
+            user = CustomUser.objects.get(pk=id)
 
             if not token_generator.check_token(user, token):
                 messages.info(request, 'User already activated')
@@ -134,8 +134,8 @@ class LoginView(View):
 
         if username and password:
             try:
-                user = User.objects.get(username=username)
-            except User.DoesNotExist:
+                user = CustomUser.objects.get(username=username)
+            except CustomUser.DoesNotExist:
                 user = None
 
             if user:
@@ -170,7 +170,7 @@ class ResetPassword(View):
     def post(self, request):
         email = request.POST.get('email')
         context = {'fieldValues': request.POST}  
-        user = User.objects.filter(email=email)      
+        user = CustomUser.objects.filter(email=email)      
         
         if user:
             
@@ -214,7 +214,7 @@ class SetNewPassword(View):
 
         try:
             id = force_str(urlsafe_base64_decode(uidb64))
-            user = User.objects.get(pk=id)
+            user = CustomUser.objects.get(pk=id)
             if not token_generator.check_token(user, token):
                 messages.info(request, 'Link invalid or used. Please request a new one')
                 return render(request, 'authentication/reset-password.html', context) 
@@ -245,7 +245,7 @@ class SetNewPassword(View):
 
         try:
             id = force_str(urlsafe_base64_decode(uidb64))
-            user = User.objects.get(pk=id)
+            user = CustomUser.objects.get(pk=id)
             user.set_password(password)
             user.save()
 

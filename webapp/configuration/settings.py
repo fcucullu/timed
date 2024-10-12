@@ -10,6 +10,7 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/5.0/ref/settings/
 """
 
+import django_heroku
 import os
 from dotenv import load_dotenv
 from pathlib import Path
@@ -25,7 +26,8 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = os.environ.get('SECRET_KEY', 'django-insecure-#=j_k=g47!j6r9vb2&q)4jb5gm!#yr==)-$vvohf_z1g+o7r&j')
+SECRET_KEY = os.environ.get(
+    'SECRET_KEY', 'django-insecure-#=j_k=g47!j6r9vb2&q)4jb5gm!#yr==)-$vvohf_z1g+o7r&j')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.environ.get('DEBUG', 'True') == 'True'
@@ -33,7 +35,6 @@ DEBUG = os.environ.get('DEBUG', 'True') == 'True'
 ALLOWED_HOSTS = os.environ.get('ALLOWED_HOSTS', '').split(',')
 
 # Application definition
-
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
@@ -45,6 +46,10 @@ INSTALLED_APPS = [
     'userpreferences',
     'authentication',
 ]
+
+# Since I have modified the default user
+AUTH_USER_MODEL = 'authentication.CustomUser'
+
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -86,7 +91,7 @@ DATABASES = {
         'USER': os.environ.get('DATABASE_USER'),
         'PASSWORD': os.environ.get('DATABASE_PASSWORD'),
         'HOST': os.environ.get('DATABASE_HOST'),
-        'PORT': os.environ.get('DATABASE_PORT', '5432'),  
+        'PORT': os.environ.get('DATABASE_PORT', '5432'),
     }
 }
 
@@ -124,11 +129,12 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 STATICFILES_DIRS = [os.path.join(BASE_DIR, 'configuration/static')]
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')  # Changed from 'static' to 'staticfiles' to avoid conflicts
+# Changed from 'static' to 'staticfiles' to avoid conflicts
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
 
 LOGIN_URL = 'login'
-LOGOUT_URL = 'logout' 
+LOGOUT_URL = 'logout'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
@@ -136,16 +142,16 @@ LOGOUT_URL = 'logout'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # Activate Django-Heroku.
-import django_heroku
 django_heroku.settings(locals())
 
-MESSAGE_TAGS={
+MESSAGE_TAGS = {
     messages.ERROR: 'danger'
 }
 
 
-#EMAIL CONFIGURATION
-EMAIL_BACKEND = os.getenv('EMAIL_BACKEND', 'django.core.mail.backends.smtp.EmailBackend')
+# EMAIL CONFIGURATION
+EMAIL_BACKEND = os.getenv(
+    'EMAIL_BACKEND', 'django.core.mail.backends.smtp.EmailBackend')
 EMAIL_HOST = os.getenv('EMAIL_HOST')
 EMAIL_PORT = int(os.getenv('EMAIL_PORT'))
 EMAIL_USE_TLS = os.getenv('EMAIL_USE_TLS') == 'True'
@@ -158,4 +164,4 @@ DEFAULT_DAYS_IN_TIME_INTERVALS = {"Year": 365,
                                   "Quarter": 90,
                                   "Month": 30,
                                   "Week": 7,
-}
+                                  }

@@ -2,7 +2,7 @@ from django.shortcuts import render, redirect
 from django.contrib.auth.decorators import login_required
 from django.views.decorators.cache import cache_control
 from django.contrib import messages
-from .models import Converter
+from .models import ConversionHistory
 from .utils.abstract.abstract_converter import AbstractConverter
 from django.http import HttpResponse
 
@@ -38,7 +38,7 @@ def convert(request):
             messages.success(request, 'Conversion successful! Your file should be automatically downloaded.')
             
             # Save conversion details to the database
-            Converter.objects.create(
+            ConversionHistory.objects.create(
                 user=request.user,
                 conversion_used=conversion_type,
                 status='Success'
@@ -50,7 +50,7 @@ def convert(request):
             messages.error(request, 'An error occurred during conversion. Please check the file and try again.')
             
             # Save conversion details with failure status
-            Converter.objects.create(
+            ConversionHistory.objects.create(
                 user=request.user,
                 conversion_used=conversion_type,
                 status='Failure'

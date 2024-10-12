@@ -1,8 +1,10 @@
 from django.db import models
-from django.contrib.auth.models import User
+from authentication.models import CustomUser
 
-class Converter(models.Model):
-    user = models.ForeignKey(User, on_delete=models.CASCADE)
+class ConversionHistory(models.Model):
+    user = models.ForeignKey(CustomUser, on_delete=models.CASCADE)
+    username = models.CharField(max_length=50)
+    company = models.CharField(max_length=255) 
     date = models.DateTimeField(auto_now_add=True) 
     conversion_used = models.CharField(max_length=255) 
     status = models.CharField(max_length=50)  # Final status of the conversion
