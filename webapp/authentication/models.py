@@ -5,12 +5,7 @@ from .utils import token_generator
 
 class CustomUser(AbstractUser):
     company = models.CharField(max_length=255, blank=True)
-    api_key = models.CharField(max_length=255, unique=True, blank=True)
-
-    def save(self, *args, **kwargs):
-        if not self.api_key:
-            self.api_key = token_generator.generate_token(self)
-        super().save(*args, **kwargs)
+    api_key = models.CharField(max_length=255, unique=True, blank=True) #Created blank, bus assigned by a signal after creation
 
     def __str__(self):
         return self.username

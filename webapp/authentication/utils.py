@@ -22,5 +22,9 @@ class AppTokenGenerator(PasswordResetTokenGenerator):
             return True
         except AuthenticationToken.DoesNotExist:
             return False
+        
+    def generate_api_key(self, user):
+        token = super().make_token(user)
+        return token
 
 token_generator = AppTokenGenerator()
